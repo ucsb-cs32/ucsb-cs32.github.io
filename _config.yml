@@ -1,7 +1,8 @@
-title: "UCSB CS24"
-course: "CS24"
-github_url: https://github.com/ucsb-cs24/ucsb-cs24.github.io
-
+title: "UCSB CS32"
+course: "CS32"
+github_url: https://github.com/ucsb-cs32/ucsb-cs32.github.io
+course_title: "Object Oriented Design and Implementation"
+catalog_desc_url: http://www.cs.ucsb.edu/education/courses/cmpsc-32
 
 on_campus: http://proquest.safaribooksonline.com
 off_campus: http://proquest.safaribooksonline.com.proxy.library.ucsb.edu:2048/
