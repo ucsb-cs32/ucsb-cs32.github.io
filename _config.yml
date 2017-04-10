@@ -1,0 +1,47 @@
+title: "UCSB CS24"
+course: "CS24"
+github_url: https://github.com/ucsb-cs24/ucsb-cs24.github.io
+
+
+on_campus: http://proquest.safaribooksonline.com
+off_campus: http://proquest.safaribooksonline.com.proxy.library.ucsb.edu:2048/
+
+
+#kramdown:
+#  parse_block_html: true
+
+exclude: ['vendor', 'setup.sh', 'jekyll.sh']
+
+timezone: America/Los_Angeles
+
+collections:
+  topics:
+    output: true
+    permalink: /topics/:path/
+
+  textbooks:
+    output: true
+    permalink: /textbooks/:path/
+
+  resources:
+    output: true
+    permalink: /resources/:path/
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
+
+  - scope:
+      path: ""
+      type: topics
+    values:
+      layout: topic
+
+  - scope:
+      path: ""
+      type: resources
+    values:
+      layout: topic
