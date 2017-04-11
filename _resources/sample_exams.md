@@ -3,8 +3,6 @@ topic: "sample exams"
 desc: "Exams from previous offerings of CS32"
 ---
 
-
-
 <div id="disclaimer" data-role="collapsible" data-collapsed="false" markdown="1">
 <h2>Disclaimer</h2>
 
@@ -34,3 +32,7 @@ Finally, these disclaimers:
 Ok, now the exams:
 
 </div>
+
+
+* CS32 F15 (Conrad) Midterm Exam 1:  http://www.cs.ucsb.edu/~pconrad/cs32/15F/exams/E01/
+* CS32 F15 (Conrad) Final Exam 1:  http://www.cs.ucsb.edu/~pconrad/cs32/15F/exams/E01/
