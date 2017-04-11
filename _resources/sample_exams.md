@@ -35,4 +35,4 @@ Ok, now the exams:
 
 
 * CS32 F15 (Conrad) Midterm Exam 1:  http://www.cs.ucsb.edu/~pconrad/cs32/15F/exams/E01/
-* CS32 F15 (Conrad) Final Exam 1:  http://www.cs.ucsb.edu/~pconrad/cs32/15F/exams/E01/
+* CS32 F15 (Conrad) Final Exam:  http://www.cs.ucsb.edu/~pconrad/cs32/15F/exams/E03
