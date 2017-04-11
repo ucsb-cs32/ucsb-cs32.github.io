@@ -31,9 +31,6 @@ Finally, these disclaimers:
 
 Ok, now the exams:
 
-</div>
-
-
 
 * CS32 F15 (Conrad) Midterm Exam 1:  [Exam](http://www.cs.ucsb.edu/~pconrad/cs32/15F/exams/E01/CS32-F15-E01.pdf)
  [Handout](http://www.cs.ucsb.edu/~pconrad/cs32/15F/exams/E01/CS32-F15-E01-Handout.pdf) (key not available)
@@ -44,3 +41,8 @@ Ok, now the exams:
 
 
 * CS32 S15 (Conrad) Midterm Exam 1: [Exam](http://www.cs.ucsb.edu/~pconrad/cs32/15S/exams/E01/pdf/CS32.S15.E01.sample.exam.101.pdf) [Partial Key](http://www.cs.ucsb.edu/~pconrad/cs32/15S/exams/E01/Key-101-CS32-exam.pdf)
+
+</div>
+
+
+
