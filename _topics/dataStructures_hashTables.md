@@ -3,10 +3,10 @@ topic: "Data Structures: Hash Tables"
 desc: "Open and Closed Hashing, etc."
 ---
 
-All hash tables have in common the idea that a hash function H(x), maps a value to a location.   For simplicity, we'll treat this location as the "index of an array of size n", i.e. an integer value between 0 and n-1.
+All hash tables have in common the idea that a hash function $$H(x)$$, maps a value to a location.   For simplicity, we'll treat this location as the "index of an array of size n", i.e. an integer value between 0 and n-1.
 
 This scheme works perfectly when there are no hash collisions.
-* A hash collision happens when x1!=x2, but  H(x1)==H(x2).
+* A hash collision happens when $$x_1\ne x_2$$, but  $H(x_1)=H(x_2)$.
 * Example: For H(x)=x%100, H(201) == H(401)
 
 The best way to deal with this is to choose a clever hash function&mdash;one that takes the statistical distribution of your data into account, and choose a scheme that makes collisions very unlikely.     
