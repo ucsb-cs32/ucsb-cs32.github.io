@@ -6,8 +6,8 @@ desc: "Open and Closed Hashing, etc."
 All hash tables have in common the idea that a hash function $$H(x)$$, maps a value to a location.   For simplicity, we'll treat this location as the "index of an array of size n", i.e. an integer value between 0 and n-1.
 
 This scheme works perfectly when there are no hash collisions.
-* A hash collision happens when $$x_1\ne x_2$$, but  $H(x_1)=H(x_2)$.
-* Example: For H(x)=x%100, H(201) == H(401)
+* A hash collision happens when $$x_1\ne x_2$$, but  $$H(x_1)=H(x_2)$$.
+* Example: For $$H(x)$$=`x%100`, $$H(201)=H(401)$$
 
 The best way to deal with this is to choose a clever hash function&mdash;one that takes the statistical distribution of your data into account, and choose a scheme that makes collisions very unlikely.     
 
@@ -21,25 +21,10 @@ One way of thinking about the two approaches:
 
 The terminology can gets confusing here.   
 
-{| class="wikitable"
-|-
-| How it works
-| Hashing&mdash;do we leave the hash table, or not, to find data?
-| Addressing&mdash;how do we determine an address?
-| Other names that may apply
-|-
-| All elements are in the array, and you go probing through the array to resolve collisions.
-| Closed Hashing: nothing is outside the hash table
-| Open Addressing: the address is not determined only by the key, but also by what else is in the hash table
-| There are various kinds of probing: linear probing, quadratic probing, double hashing
-|-
-| The element are outside the array; each array element is the head of a linked list (or other data structure)
-| Open Hashing: we may have to go outside the hash table to find our data
-| Closed Addressing: the hash function tells us exactly where to go (though we may have to iterate through a list once we get there.)
-| <b>Separate Chaining</b> is the term often used for this technique.
-|}
-
-
+| How it works | Hashing&mdash;do we leave the hash table, or not, to find data? | Addressing&mdash;how do we determine an address? | Other names that may apply |
+|--|--|--|--|
+| All elements are in the array, and you go probing through the array to resolve collisions. | Closed Hashing: nothing is outside the hash table | Open Addressing: the address is not determined only by the key, but also by what else is in the hash table | There are various kinds of probing: linear probing, quadratic probing, double hashing |
+| The element are outside the array; each array element is the head of a linked list (or other data structure) | Open Hashing: we may have to go outside the hash table to find our data | Closed Addressing: the hash function tells us exactly where to go (though we may have to iterate through a list once we get there. | <b>Separate Chaining</b> is the term often used for this technique. |
 
 = Intro =
 
