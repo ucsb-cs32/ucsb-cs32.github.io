@@ -39,7 +39,7 @@ clear to simply write:
       return isValidTime(t);
 ```
 
-Other common CS16 C++ Antipatterns
+Other common C++ Antipatterns
 ==================================
 
 Checking `a` `<=` `b` `<=` `c` instead of `a<=b` `&&` `b<=c`
