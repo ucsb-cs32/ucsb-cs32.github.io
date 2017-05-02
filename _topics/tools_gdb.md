@@ -4,6 +4,11 @@ desc: "GNU debugger"
 indent: true
 ---
 
+
+<div style='display:none'>
+https://ucsb-cs32.github.io/topics/tools_gdb/
+</div>
+
 This page may be required reading for any CS32 labs that pertain to gdb.
 
 The following [gdb "cheat sheet" at this .pdf link](http://darkdust.net/files/GDB%20Cheat%20Sheet.pdf) may also be useful.
