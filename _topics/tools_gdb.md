@@ -2,6 +2,7 @@
 topic: "tools: gdb"
 desc: "GNU debugger"
 indent: true
+category_prefix: "tools: "
 ---
 
 
