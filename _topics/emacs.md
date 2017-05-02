@@ -1,6 +1,7 @@
 ---
 topic: "emacs"
 desc: "general purpose text editor with programmer-friendly features"
+category_prefix: "emacs: "
 ---
 
 
