@@ -107,7 +107,7 @@ You can only step through lines of source code if you have the source code. The 
 
 gdb has some useful printing and evaluation features
 
-```cpp
+{% highlight cpp linenos %}
 class Foo
 {
  public:
@@ -123,7 +123,7 @@ int main(int argc, char *argv[])
 
   return 0;
 }
-```
+{% endhighlight %}
 
 ```
 user@computer:~$ gdb ./program
@@ -171,7 +171,7 @@ Quit anyway? (y or n) y
 
 This program uses recursion. We will use it in our next example.
 
-```cpp
+{% highlight cpp linenos %}
 int recursive(int a)
 {
   if(a>0)
@@ -187,7 +187,7 @@ int main(int argc, char *argv[])
 
   return 0;
 }
-```
+{% endhighlight %}
 
 Some notes about working with recursive programs:
 
@@ -344,7 +344,7 @@ Breakpoint 1, main (argc=1, argv=0x7fffffffde38) at main.cpp:10
 The watch command may be useful if you are trying to see if a particular variable is being changed.
 Consider the following example.
 
-```cpp
+{% highlight cpp linenos %}
 int foo[40] ={0};
 
 int main(int argc, char * argv[])
@@ -353,7 +353,7 @@ int main(int argc, char * argv[])
     foo[i]= 1;
   return 0;
 }
-```
+{% endhighlight %}
 
 We want to stop when the `foo[25]` value is changed.
 ```
@@ -373,7 +373,7 @@ main (argc=1, argv=0x7fffffffde38) at watch.cpp:6
 
 Sometimes you might only want gdb to break if a certain condition is true.
 
-```cpp
+{% highlight cpp linenos %}
 #include <iostream>
 int main(int argc, char * argv[])
 {
@@ -381,7 +381,8 @@ int main(int argc, char * argv[])
     std::cout << i << std::endl;
   return 0;
 }
-```
+{% endhighlight %}
+
 
 We want to break on line 5 only when `i` is equal to 5
 
