@@ -5,6 +5,11 @@ indent: true
 ---
 
 
+
+<div style='display:none'>
+https://ucsb-cs32.github.io/topics/tools_valgrind/
+</div>
+
 Valgrind is actually multiple tools in one. The default tool that is invoked when you run valgrind is `memcheck`. 
 You should compile your program with `-g` so that valgrind has access to all the debug information.
 
