@@ -20,7 +20,7 @@ Debuggers depend on debug symbols to be compiled into the machine language versi
 
 Let's start with a trivial program.
 
-```cpp
+{% highlight cpp linenos %}
 #include <iostream>
 
 int main(int argc, char *argv[])
@@ -32,7 +32,7 @@ int main(int argc, char *argv[])
 
   return 0;
 }
-```
+{% endhighlight %}
 
 Now run your program in GDB.  Remember to compile it with the <code>-g</code> flag.
 
