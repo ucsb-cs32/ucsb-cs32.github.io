@@ -1,6 +1,8 @@
 ---
 topic: "git/github: overview"
 desc: "An introduction. git vs. github.com vs. github.ucsb.edu, repos, etc."
+category_prefix: "git: "
+category_prefix_alt: "github: "
 ---
 
 A few basics facts about git, github.com, and github.ucsb.edu
