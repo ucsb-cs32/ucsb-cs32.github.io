@@ -35,35 +35,35 @@ Below is the a summary of the three most common operations supported by a Hash T
 <table>
   <tr>
      <td>
-       <p> `find(item)` </p> 
+       <p markdown="1"> `find(item)` </p> 
     </td>
     <td>
-       <p> $$O(1)$$ in average case </p>
+       <p markdown="1"> $$O(1)$$ in average case </p>
      </td>
     <td>
-       <p> $$O(n)$$ in worst case </p>
+       <p markdown="1"> $$O(n)$$ in worst case </p>
     </td>
   </tr>
   <tr>
      <td>
-       <p> `insert(item)` </p>
+       <p markdown="1"> `insert(item)` </p>
     </td>
     <td>
-       <p> $$O(1)$$ in average case </p>
+       <p markdown="1"> $$O(1)$$ in average case </p>
      </td>
      <td>
-       <p> $$O(n)$$ in worst case </p>
+       <p markdown="1"> $$O(n)$$ in worst case </p>
      </td>
   </tr>
   <tr> 
      <td>
-       <p> `delete(item)` </p>
+       <p markdown="1"> `delete(item)` </p>
     </td>
     <td>
-       <p> $$O(1)$$ in average case </p>
+       <p markdown="1"> $$O(1)$$ in average case </p>
      </td>
      <td>
-       <p> $$O(n)$$ in worst case </p>
+       <p markdown="1"> $$O(n)$$ in worst case </p>
      </td>
   </tr>
 </table>
