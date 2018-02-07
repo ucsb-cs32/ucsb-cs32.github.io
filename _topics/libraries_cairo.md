@@ -13,6 +13,6 @@ Cairo is a 2D graphics library with support for multiple output devices. Current
 
 For a simple Hello World style program with a Makefile that should compile on CSIL (though it doesn't as of 02/06/2018, and we are hoping to get that remedied), see:
 
-* https://github.com/ucsb-cs32/cairo-demo
+* <https://github.com/ucsb-cs32/cairo-demo>
 
 
