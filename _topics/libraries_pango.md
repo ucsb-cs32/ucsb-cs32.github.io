@@ -20,4 +20,4 @@ For a simple Hello World style program with a Makefile that should compile on CS
 
 * <https://github.com/ucsb-cs32/pango-demo>
 
-
+That will create an output file in .png format.
