@@ -2,6 +2,7 @@
 topic: "libraries: curlpp"
 desc: "C++ library for fetching web pages"
 category_prefix: "libraries: "
+indent: true
 ---
 
 The curlpp library allows you to retrieve web pages over HTTP from your C++ code with just a few lines of code.
