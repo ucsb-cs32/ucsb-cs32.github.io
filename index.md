@@ -16,7 +16,8 @@ This site is maintained in this github repo: <{{site.github_url}}>.   If you are
 
 # Previous iterations of this course
 
-* <https://foo.cs.ucsb.edu/32wiki> (Fall 2015)
+* [Fall 2015 (Conrad, at foo wiki)](https://foo.cs.ucsb.edu/32wiki) 
+* [Spring 2015 (Conrad, at foo wiki)](https://foo.cs.ucsb.edu/32wiki/index.php/Spring_2015)
 
 
 </div><!-- about -->
