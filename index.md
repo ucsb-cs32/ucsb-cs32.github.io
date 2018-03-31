@@ -14,6 +14,11 @@ This site is maintained in this github repo: <{{site.github_url}}>.   If you are
 
 * [Catalog Description]({{site.catalog_desc_url}}) including pre-requisites
 
+# Previous iterations of this course
+
+* <https://foo.cs.ucsb.edu/32wiki> (Fall 2015)
+
+
 </div><!-- about -->
 
 
