@@ -1,6 +1,12 @@
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+
+remote_theme: ucsb-cs-course-repos/course-repo-jekyll-theme
+
 title: "UCSB CS32"
 course: "CS32"
-qtr: "S17"
+qtr: "W19"
 github_url: https://github.com/ucsb-cs32/ucsb-cs32.github.io
 course_title: "Object Oriented Design and Implementation"
 catalog_desc_url: http://www.cs.ucsb.edu/education/courses/cmpsc-32
@@ -13,6 +19,7 @@ off_campus: http://proquest.safaribooksonline.com.proxy.library.ucsb.edu:2048/
 #  parse_block_html: true
 
 exclude: ['vendor', 'setup.sh', 'jekyll.sh']
+include: ['_pages']
 
 timezone: America/Los_Angeles
 
@@ -40,10 +47,10 @@ defaults:
       path: ""
       type: topics
     values:
-      layout: topic
+      layout: default
 
   - scope:
       path: ""
       type: resources
     values:
-      layout: topic
+      layout: default
