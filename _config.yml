@@ -4,6 +4,9 @@ plugins:
 
 remote_theme: ucsb-cs-course-repos/course-repo-jekyll-theme
 
+url: https://ucsb-cs32.github.io # the base hostname & protocol for your site
+baseurl: "/"  # the subpath of your site "/" for main, "/w19" for instance
+
 title: "UCSB CS32"
 course: "CS32"
 qtr: "W19"
