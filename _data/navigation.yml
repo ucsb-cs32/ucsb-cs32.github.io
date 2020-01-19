@@ -29,7 +29,7 @@ main_dropdown:
 offering_menus:
   -
     term: W20
-    baseurl: /W20
+    baseurl: /w20
     items:
       - title: Hwk
         url: /hwk_list/
