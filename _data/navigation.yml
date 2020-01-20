@@ -15,8 +15,8 @@ production_url: https://ucsb-cs32.github.io
 
 home:
    title: UCSB CS32
-   url: /
-   baseurl: /
+   url: /w20
+   baseurl: /w20
 
 main_dropdown:
    title: Resources
@@ -28,9 +28,9 @@ main_dropdown:
 
 offering_menus:
   -
-    term: F19
-    baseurl: /f19
-    items:    
+    term: W20
+    baseurl: /w20
+    items:
       - title: Hwk
         url: /hwk_list/
         description: "Homework Assignments"
@@ -47,16 +47,59 @@ offering_menus:
         dropdown:
            - title: Syllabus
              url: /info/syllabus/
-             description: "Syllabus"    
+             description: "Syllabus"
            - title: Info Pages
              url: /info_list/
              description: "List of General Information Pages"
-           - title: Office Hours	
+           - title: Office Hours
              url: /info/office_hours/
            - title: Staff
              url: /staff_list/
       - title: Links
-        dropdown:	 
+        dropdown:
+           - title: Gauchospace
+             url: https://gauchospace.ucsb.edu
+             description: "Overall Grade Information"
+           - title: GradeScope
+             url: https://gradescope.com
+             description: "HW and Lab Grades"
+           - title: Piazza
+             url: https://piazza.com
+             description: "Q&A Forum"
+      - title: Github
+        dropdown:
+           - title: ucsb-cs32-W20
+             url: https://github.com/ucsb-cs32-w20
+  -
+    term: F19
+    baseurl: /f19
+    items:
+      - title: Hwk
+        url: /hwk_list/
+        description: "Homework Assignments"
+      - title: Lab
+        url: /lab_list/
+        description: "Lab Assignments"
+      - title: Exam
+        url: /exam_list/
+        description: "Exams"
+      - title: Cal
+        url: /info/calendar/
+        description: "Assignment Calendar"
+      - title: More
+        dropdown:
+           - title: Syllabus
+             url: /info/syllabus/
+             description: "Syllabus"
+           - title: Info Pages
+             url: /info_list/
+             description: "List of General Information Pages"
+           - title: Office Hours
+             url: /info/office_hours/
+           - title: Staff
+             url: /staff_list/
+      - title: Links
+        dropdown:
            - title: Gauchospace
              url: https://gauchospace.ucsb.edu
              description: "Overall Grade Information"
@@ -73,7 +116,7 @@ offering_menus:
   -
     term: S19
     baseurl: /s19
-    items:    
+    items:
       - title: Hwk
         url: /hwk_list/
         description: "Homework Assignments"
@@ -90,16 +133,16 @@ offering_menus:
         dropdown:
            - title: Syllabus
              url: /info/syllabus/
-             description: "Syllabus"    
+             description: "Syllabus"
            - title: Info Pages
              url: /info_list/
              description: "List of General Information Pages"
-           - title: Office Hours	
+           - title: Office Hours
              url: /info/office_hours/
            - title: Staff
              url: /staff_list/
       - title: Links
-        dropdown:	 
+        dropdown:
            - title: Gauchospace
              url: https://gauchospace.ucsb.edu
              description: "Overall Grade Information"
@@ -113,47 +156,4 @@ offering_menus:
         dropdown:
            - title: ucsb-cs32-s19
              url: https://github.com/ucsb-cs32-s19
-  -
-    term: W19
-    baseurl: /w19
-    items:    
-      - title: Hwk
-        url: /hwk_list/
-        description: "Homework Assignments"
-      - title: Lab
-        url: /lab_list/
-        description: "Lab Assignments"
-      - title: Exam
-        url: /exam_list/
-        description: "Exams"
-      - title: Cal
-        url: /info/calendar/
-        description: "Assignment Calendar"
-      - title: More
-        dropdown:
-           - title: Syllabus
-             url: /info/syllabus/
-             description: "Syllabus"    
-           - title: Info Pages
-             url: /info_list/
-             description: "List of General Information Pages"
-           - title: Office Hours	
-             url: /info/office_hours/
-           - title: Staff
-             url: /staff_list/
-      - title: Links
-        dropdown:	 
-           - title: Gauchospace
-             url: https://gauchospace.ucsb.edu
-             description: "Overall Grade Information"
-           - title: GradeScope
-             url: https://gradescope.com
-             description: "HW and Lab Grades"
-           - title: Piazza
-             url: https://piazza.com
-             description: "Q&A Forum"
-      - title: Github
-        dropdown:
-           - title: ucsb-cs32-w19
-             url: https://github.com/ucsb-cs32-w19
 
