@@ -27,7 +27,7 @@ main_dropdown:
        url: /resources_list/
 
 offering_menus:
- -
+  -
     term: F20
     baseurl: /f20
     items:
@@ -68,8 +68,8 @@ offering_menus:
              description: "Q&A Forum"
       - title: Github
         dropdown:
-           - title: ucsb-cs32-F20
-             url: https://github.com/ucsb-cs32-f20 
+           - title: ucsb-cs32-S20
+             url: https://github.com/ucsb-cs32-s20
  -
     term: S20
     baseurl: /s20
