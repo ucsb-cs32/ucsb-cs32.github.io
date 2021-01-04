@@ -31,15 +31,9 @@ offering_menus:
   - term: W21
     baseurl: /w21
     items:
-      - title: Hwk
-        url: /hwk_list/
-        description: "Homework Assignments"
       - title: Lab
         url: /lab_list/
         description: "Lab Assignments"
-      - title: Exam
-        url: /exam_list/
-        description: "Exams"
       - title: Cal
         url: /info/calendar/
         description: "Assignment Calendar"
@@ -58,13 +52,13 @@ offering_menus:
       - title: Links
         dropdown:	 
           - title: Gauchospace
-            url: https://gauchospace.ucsb.edu
+            url: https://gauchospace.ucsb.edu/courses/course/view.php?id=104979
             description: "Overall Grade Information"
           - title: GradeScope
             url: https://gradescope.com
             description: "HW and Lab Grades"
           - title: Piazza
-            url: https://piazza.com
+            url: https://piazza.com/ucsb/winter2021/cs32w21
             description: "Q&A Forum"
       - title: Github
         dropdown:
